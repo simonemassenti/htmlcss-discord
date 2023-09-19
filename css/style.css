@@ -163,41 +163,51 @@ li a {
 
 /* FOOTER */
 /* Five columns */
-.col-container {
-    background-color: var(--bg-col-container);
-    display: flex;
-    justify-content: center;
+
+footer {
+    background-color: var(--bg-footer);
+    padding: 10% 10%;
 }
 
-.col-pink {
-    background-color: var(--bg-col-pink);
-    width: 200px;
-    height: 600px;
+.col-container {
+    display: flex;
+    margin: 1rem;
+}
+
+.main-col {
+    width: 35%;
+}
+
+footer section {
+    color: white;
+    font-size: 0.8rem;
+    margin-bottom: 1rem;
+}
+
+.footer-title {
+    color: #7289DA;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.footer-subtitle {
+    color: #7289DA;
+    font-size: 0.7rem;
+    font-weight: bold;
+}
+
+.flag {
+    width: 1rem;
 }
 
 .col {
-    background-color: var(--bg-col);
-    width: 150px;
-    height: 600px;
-}
-
-footer {
-    margin: 1px 0;
-    height: 70px;
-    background-color: var(--bg-footer);
-    display: flex;
-    align-items: flex-end;
-    justify-content: center;
+    width: calc(100% / 4);
 }
 
 .footer-box {
-    height: 70%;
-	width: 80%;
     background-color: var(--bg-footer-box);
     display: flex;
     justify-content: space-between;
-    align-items: center;
-
 }
 
 .button {
