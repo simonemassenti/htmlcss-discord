@@ -130,6 +130,7 @@ li a {
     line-height: 1.5rem;
 }
 
+/* Big article */
 .big-article {
     text-align: center;
     padding: 30px 10%;
@@ -137,8 +138,14 @@ li a {
 
 .article-subtitle{
     font-size: 1.5rem;
-    margin-bottom: 1rem;
+    padding-top: 1.5rem;
+    margin-bottom: 1.5rem;
     font-weight: bold;
+    background-image: url(../img/stars.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    line-height: center;
+    min-height: 3rem;
 }
 
 .download2 {
