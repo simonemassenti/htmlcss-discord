@@ -130,6 +130,20 @@ li a {
     line-height: 1.5rem;
 }
 
+.wave {
+    position: relative;
+    top: 0.25rem;
+    opacity: 0.17;
+    width: 100%;
+}
+
+.wave-r {
+    position: relative;
+    opacity: 0.17;
+    width: 100%;
+    transform: rotate(180deg);
+}
+
 /* Big article */
 .big-article {
     text-align: center;
