@@ -141,11 +141,13 @@ li a {
     padding-top: 1.5rem;
     margin-bottom: 1.5rem;
     font-weight: bold;
+    min-height: 3rem;
+}
+
+.stars {
     background-image: url(../img/stars.svg);
     background-position: center;
     background-repeat: no-repeat;
-    line-height: center;
-    min-height: 3rem;
 }
 
 .download2 {
