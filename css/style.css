@@ -204,12 +204,20 @@ footer section {
     width: calc(100% / 4);
 }
 
-.footer-box {
-    background-color: var(--bg-footer-box);
+hr {
+    color: #7289DA;
+}
+
+.footer-bottom {
+    padding-top: 1rem;
     display: flex;
     justify-content: space-between;
 }
 
-.button {
-    background-color: var(--bg-button);
+.registrati {
+    color: white;
+    background-color: #7289DA;
+    text-decoration: none;
+    border-color: #7289DA;
+    font-size: 0.7rem;
 }
