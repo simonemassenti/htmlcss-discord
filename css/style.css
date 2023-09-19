@@ -3,7 +3,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 img {
@@ -15,29 +14,16 @@ img {
     background-color: #D3D3D3;
 }
 
+body {
+    font-family: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
 .btn {
     border:  1px solid;
     padding: 0.7rem;
     font-size: 1rem;
     border-radius: 1.5rem;
     margin: 1rem;
-}
-
-/* ROOT */
-:root {
-    --bg-header: #255EE9;
-    --bg-hero-box: #00008B;
-    --bg-hero: #EE82EE;
-    --bg-article: #1E90FF;
-    --bg-aside: #FFC0CB;
-    --bg-gray: #D3D3D3;
-    --bg-green-rect: #228B22;
-    --bg-col-container: #23272A;
-    --bg-col-pink: #F08080;
-    --bg-col: #20B2AA;
-    --bg-footer: #23272A;
-    --bg-footer-box: #7FFFD4;
-    --bg-button: #FFB6C1;
 }
 
 /* HEADER */
@@ -165,7 +151,7 @@ li a {
 /* Five columns */
 
 footer {
-    background-color: var(--bg-footer);
+    background-color: #23272A;
     padding: 10% 10%;
 }
 
